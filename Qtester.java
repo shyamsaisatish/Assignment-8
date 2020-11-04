@@ -79,14 +79,14 @@ public class Qtester {
 
 		private static List<Transaction> getAllTransactions() {
 
-			Trader ram = new Trader("ram", "delhi");
-			Trader kapil = new Trader("kapil", "noida");
-			Trader raj = new Trader("raj", "banglore");
-			Trader ekta = new Trader("ekta", "banglore");
+			Trader ram = new Trader("shyam", "delhi");
+			Trader kapil = new Trader("sai", "noida");
+			Trader raj = new Trader("satish", "banglore");
+			Trader ekta = new Trader("varun", "banglore");
 
-			List<Transaction> transactions = Arrays.asList(new Transaction(ram, 2011, 300),
-					new Transaction(ram, 2012, 1000), new Transaction(kapil, 2011, 400), new Transaction(raj, 2012, 710),
-					new Transaction(ekta, 2012, 700), new Transaction(ekta, 2012, 950));
+			List<Transaction> transactions = Arrays.asList(new Transaction(shyam, 2011, 300),
+					new Transaction(sai, 2012, 1000), new Transaction(satish, 2011, 400), new Transaction(varun, 2012, 710),
+					new Transaction(varun, 2012, 700), new Transaction(varun, 2012, 950));
 
 			return transactions;
 		}
